@@ -220,7 +220,7 @@ namespace BadCalcVeryBad
 
             Console.WriteLine("= " + result.ToString(CultureInfo.InvariantCulture));
             U.Counter++;
-            Thread.Sleep(new Random().Next(0, RESULT_PAUSE_MAX_MS));
+            Thread.Sleep(RESULT_PAUSE_MAX_MS);
         }
 
         private static void CleanupAndExit()
