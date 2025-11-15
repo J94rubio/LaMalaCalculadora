@@ -95,9 +95,7 @@ namespace BadCalcVeryBad
 
         private static void RunCalculatorLoop()
         {
-            bool continueCalculating = true;
-            
-            while (continueCalculating)
+            while (true)
             {
                 var userChoice = DisplayMenuAndGetChoice();
                 
